@@ -1,0 +1,18 @@
+# this net will process the SEEDS dataset  p2SEEDS.csv  from:
+#     https://archive.ics.uci.edu/ml/datasets/seeds
+
+# hidden layer (5 neurons with 7 weights each plus their bias)
+0 0   0.1  0.1  0.1  0.1  0.1  0.1  0.1    0.1
+0 1   0.3  0.3  0.3  0.3  0.3  0.3  0.3    0.3
+0 2   0.5  0.5  0.5  0.5  0.5  0.5  0.5    0.5
+0 3   0.7  0.7  0.7  0.7  0.7  0.7  0.7    0.7
+0 4   0.9  0.9  0.9  0.9  0.9  0.9  0.9    0.9
+
+## output layer (3 neurons with 5 inputs each plus their bias)
+##    the seeds dataset has 3 possible values for each label
+##    so we provide 3 neurons on the output layer
+1 0   0.5  0.5  0.5  0.5  0.5    0.5
+1 1   0.5  0.5  0.5  0.5  0.5    0.5
+1 2   0.5  0.5  0.5  0.5  0.5    0.5
+
+#inputs 1 1 1 1 1 1 1
